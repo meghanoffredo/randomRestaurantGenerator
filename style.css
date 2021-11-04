@@ -1,0 +1,104 @@
+html {
+    font-size: 16px;
+    color: #36464d;
+    background-color: #e6ebef;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    text-align: center;
+    margin: auto;
+    height: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* Top bar, no nav links */
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    background-color: #698796;
+}
+
+nav span {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.5vh;
+    font-weight: 700;
+    color: #f1f4f6;
+    line-height: 1.8em; /* Increase height of top bar */
+}
+
+span strong {
+    color: #36464d;
+}
+
+/* Header Section - Title, subtect, button */
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 6vh;
+    margin: auto;
+    padding: 1em;
+    width: 80%;
+}
+
+h2 {
+    font-size: 4vh;
+    padding-bottom: 1em;
+    width: 80%;
+    margin: auto;
+}
+
+button {
+    padding: 1em 2em;
+    font-size: 2.5vh;
+    font-family: 'Fjalla One', sans-serif;
+    color: #36464d;
+    background-color: white;
+    border-radius: 1em 1em 1em;
+    border: solid 3px #36464d;
+    margin: 2em;
+}
+
+/* Dark button color on hover or click */
+button:hover, button:active {
+    opacity: .9;
+    background-color: #B4C4CF;
+}
+
+/* Img Container */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 4em; /* Increase space before end of page */
+    object-position: center;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    background-color: #698796;
+}
+
+p {
+    font-size: 2.2vh;
+    color: #f1f4f6;
+    line-height: 2em; /* Increase height of top bar */
+}
+
+p strong {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.4vh;
+}
+
