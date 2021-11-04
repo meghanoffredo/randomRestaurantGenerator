@@ -52,7 +52,7 @@ h2 {
 }
 
 button {
-    padding: 1em 2em;
+    padding: 1em 1em;
     font-size: 2.5vh;
     font-family: 'Fjalla One', sans-serif;
     color: #36464d;
@@ -89,6 +89,8 @@ footer {
     justify-content: center;
     align-self: center;
     background-color: #698796;
+    bottom: 0;
+    position: fixed;
 }
 
 p {

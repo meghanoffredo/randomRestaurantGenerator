@@ -14,12 +14,10 @@ const restaurantArray = [
 const restaurant = document.querySelector("img");
 const button = document.querySelector("button");
 
-window.onload = () => generateRandomRestaurant(restaurantArray);
-
 // Generate new selection on click
 button.addEventListener("click", () => generateRandomRestaurant(restaurantArray));
 
-// Function to display a random restaurant
+// Function to display random restaurant
 function generateRandomRestaurant(array){
     let randomNum = Math.floor(Math.random() * array.length);
     restaurant.setAttribute("src", array[randomNum]);
