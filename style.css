@@ -81,6 +81,7 @@ button:hover, button:active {
     margin-bottom: 4em; /* Increase space before end of page */
     object-position: center;
     object-fit: cover;
+    opacity: .9;
 }
 
 footer {
