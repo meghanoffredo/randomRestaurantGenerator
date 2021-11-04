@@ -46,7 +46,6 @@ h1 {
 
 h2 {
     font-size: 4vh;
-    padding-bottom: 1em;
     width: 80%;
     margin: auto;
 }
@@ -57,9 +56,8 @@ button {
     font-family: 'Fjalla One', sans-serif;
     color: #36464d;
     background-color: white;
-    border-radius: 1em 1em 1em;
     border: solid 3px #36464d;
-    margin: 2em;
+    margin: 3em;
 }
 
 /* Dark button color on hover or click */
@@ -82,6 +80,7 @@ button:hover, button:active {
     object-position: center;
     object-fit: cover;
     opacity: .9;
+    border-radius: 1rem 1rem;
 }
 
 footer {
